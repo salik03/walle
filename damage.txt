@@ -1,0 +1,7 @@
+{
+    'Damaged wiring': ['Wire strippers', 'Wire cutters', 'Wire nuts', 'Electrical tape', 'Heat shrink tubing', 'Replacement wiring', 'Screwdrivers', 'Pliers', 'Hammer'],
+    'Broken circuit board': ['Soldering iron', 'Solder', 'Desoldering pump', 'Flux', 'Replacement circuit board', 'Screwdrivers', 'Pliers', 'Multimeter'],
+    'Damaged transformer': ['Multimeter', 'Screwdrivers', 'Pliers', 'Hammer', 'Replacement transformer'],
+    'Overheated components': ['Cooling fan', 'Thermal paste', 'Screwdrivers', 'Pliers', 'Multimeter', 'Replacement components', 'Heat sink', 'Cable ties'],
+    'Clogged air filters': ['Replacement air filters', 'Screwdrivers', 'Pliers', 'Vacuum cleaner', 'Hammer']
+}

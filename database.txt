@@ -1,0 +1,1 @@
+({'Wire strippers': 0, 'Wire cutters': 0, 'Wire nuts': 0, 'Electrical tape': 0, 'Heat shrink tubing': 0, 'Replacement wiring': 0, 'Screwdrivers': 1, 'Pliers': 1, 'Hammer': 1, 'Multimeter': 0, 'Replacement transformer': 0}, {'Damaged wiring': 0, 'Damaged transformer': 0})
