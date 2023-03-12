@@ -1,0 +1,7 @@
+{
+    'Water leak': ['Pliers','Hose Clamp','Pipe'], 
+    'Overgrown vegetation': ['Pruning shears','Saw','Fork Spade'], 
+    'Soil erosion': ['Shovels','Erosion control mats'], 
+    'Clogged Drainage System': ['Shovel', 'Broom'], 
+    'Clogged filters': ['Wrench', 'Cleaning solution']
+}
