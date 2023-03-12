@@ -1,0 +1,1 @@
+({'mug': 0, 'Pliers': 0.1, 'Hose Clamp': 0.1, 'Pipe': 0.1, 'Wrench': 0.1, 'Cleaning solution': 0.1, 'bag': 0}, {'Water leak': 0, 'Clogged filters': 0})
