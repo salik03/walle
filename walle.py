@@ -21,9 +21,15 @@ except FileNotFoundError:
 
 def add_environment_to_tools(environment_items):
     for item in environment_items:
-        if item not in damage_tools:
-            if item not in tool_weights:
-                tool_weights[item] = 0
+        if item not in damage_tools and item not in tool_weights:
+            tool_weights[item] = 0
+
+def increment_tool_weights(tools, increment):
+    for tool in tools:
+        if tool in tool_weights:
+            tool_weights[tool] += increment
+        else:
+            tool_weights[tool] = increment
 
 while True:
     environment = input("What items has Wall-E found in the environment? (comma-separated list, press q to quit)\n")
@@ -43,12 +49,7 @@ while True:
                 damage_weights[item] = 0
 
             tools = damage_tools[item]
-            for tool in tools:
-                if tool in tool_weights:
-                    tool_weights[tool] += 0.1
-                else:
-                    tool_weights[tool] = 0.1
-
+            increment_tool_weights(tools, 0.1)
     
     # Save updated tool and damage weights to database file
     with open(DATABASE_FILE, 'w') as f:
