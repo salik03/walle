@@ -1,7 +1,7 @@
 import ast
 
 DATABASE_FILE = 'database.txt'
-DAMAGE_FILE = 'damage.txt'
+DAMAGE_FILE = 'damage(drought).txt'
 
 # Initialize tool and damage weights
 try:
